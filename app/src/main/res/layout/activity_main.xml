@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:fontFamily="monospace"
-                android:text="TicTacToe"
+                android:text="@string/main_activity_text_view"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp"
