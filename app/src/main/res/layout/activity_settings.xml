@@ -26,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="30dp"
+                android:fontFamily="monospace"
                 android:text="Settings"
                 android:textAlignment="center"
                 android:textColor="@color/white"
@@ -35,19 +36,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/teal_700"
-                app:cornerRadius="15dp" />
+                android:text="Parameter 1"
+                app:cornerRadius="15dp"
+                app:elevation="15dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/teal_700"
-                app:cornerRadius="15dp" />
+                android:text="Parameter 2"
+                app:cornerRadius="15dp"
+                app:elevation="15dp" />
 
             <com.google.android.material.button.MaterialButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/teal_700"
-                app:cornerRadius="15dp" />
+                android:text="Parameter 3"
+                app:cornerRadius="15dp"
+                app:elevation="15dp" />
 
         </LinearLayout>
 
