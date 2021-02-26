@@ -16,6 +16,51 @@
         app:cardCornerRadius="15dp"
         app:cardElevation="15dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="75dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="@color/teal_700">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@android:drawable/ic_menu_directions"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="Start game"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="Settings"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="close"
+                app:cornerRadius="15dp" />
+
+        </LinearLayout>
+
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
@@ -23,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:layout_marginBottom="15dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.2"
         app:cardBackgroundColor="@color/teal_700"
         app:cardCornerRadius="15dp"
         app:cardElevation="15dp">
