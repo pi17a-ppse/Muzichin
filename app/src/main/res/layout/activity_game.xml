@@ -15,14 +15,141 @@
         app:cardCornerRadius="15dp"
         app:cardElevation="15dp">
 
-        <com.google.android.material.textview.MaterialTextView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="15dp"
-            android:text="TicTacToe"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="30sp" />
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textview1"
+                _toStartOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="TicTacToe"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview1">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="0"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="0"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="0"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="1"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="0"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="2"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="0"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="1"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="2"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="0"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="1"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_row="2"
+                    android:layout_rowWeight="0.3"
+                    android:layout_column="2"
+                    android:layout_columnWeight="0.3"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/teal_700"
+                    app:cardCornerRadius="15dp" />
+
+            </GridLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.card.MaterialCardView>
 
