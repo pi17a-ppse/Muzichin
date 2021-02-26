@@ -56,6 +56,7 @@
                 android:padding="20dp"
                 android:text="Settings"
                 android:textSize="20sp"
+                android:onClick="settings_menu_button_clicked"
                 app:cornerRadius="15dp" />
 
             <com.google.android.material.button.MaterialButton
