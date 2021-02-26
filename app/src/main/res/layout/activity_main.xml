@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="15dp"
-        app:cardBackgroundColor="@color/design_default_color_primary"
+        app:cardBackgroundColor="@color/purple_200"
         app:cardCornerRadius="15dp">
 
         <LinearLayout
@@ -27,16 +27,17 @@
                 android:text="@string/main_activity_text_view"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="50sp"
                 tools:ignore="RtlCompat" />
 
             <com.google.android.material.button.MaterialButton
+                android:layout_margin="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:onClick="play_button_clicked"
+                app:elevation="15dp"
                 android:text="Play"
-                android:textSize="30sp"
-                android:onClick="play_button_clicked"/>
+                android:textSize="30sp" />
 
         </LinearLayout>
 
