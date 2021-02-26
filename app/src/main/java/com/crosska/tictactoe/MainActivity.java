@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void play_button_clicked(View view) {
         Toast.makeText(this, "Play", Toast.LENGTH_SHORT).show();
+
     }
 }
