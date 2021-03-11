@@ -10,6 +10,16 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * Первичное меню
+ *
+ * Класс описывает методы и взаимодействие с первичным экраном.
+ *
+ * @author Crosska
+ * @version 1.0.0
+ * @copyright GNU Public License
+ * @todo Реализовать все методы
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

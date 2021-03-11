@@ -7,6 +7,16 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Главное меню
+ *
+ * Класс описывает методы и взаимодействие с главным меню.
+ *
+ * @author Crosska
+ * @version 1.0.0
+ * @copyright GNU Public License
+ * @todo Реализовать все методы
+ */
 public class MenuActivity extends AppCompatActivity {
 
     @Override
