@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void play_button_clicked(View view) {
         Toast.makeText(this, "Play", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(MainActivity.this, MenuActivity.class);
-        startActivity(intent);
+        Intent intent2 = new Intent(MainActivity.this, MenuActivity.class);
+        intent2 = new Intent(MainActivity.this, MenuActivity.class);
+        startActivity(intent2);
     }
 }
